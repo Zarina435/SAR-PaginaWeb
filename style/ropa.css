@@ -1,0 +1,231 @@
+/***** Fondos *****/
+
+html {
+  background-image: url("../src/blue.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size:cover;
+}
+
+/***** Barra, menu *****/
+
+.horzMenu {
+  display: flex;
+  background-color: grey;
+}
+
+.hlist li {
+  list-style-type: none;
+}
+
+h1{
+  margin-left: 600px;
+  width: 100%;
+  text-shadow: 0px 0px 15px rgb(255, 253, 253), 0px 0px 4px rgb(155, 252, 252);
+}
+
+/***** Cuadros de los elementos *****/
+
+.cuadrado {
+  margin:auto;
+  width: 300px;         
+  height: 300px;          
+  background-color: lightskyblue;      
+  border: 1px solid #000; 
+  text-align:center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cuadrado2{
+  margin-right: 10px;
+  position: relative;
+  left: 200px;
+  top: 30px;
+  width: 500px;
+  height: 500px;
+  background-color: lightskyblue;
+  border: 1px solid #000;
+  text-align:center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.descripcion{
+  margin:auto;
+  line-height : 1px;
+  text-align:center;
+  width: 300px;          
+  height: 50px; 
+  
+}
+
+/***** Comentarios *****/
+
+#texto{
+  position: relative;
+  left: 800px;
+  top: -400px;
+}
+
+#comentario{
+  /* position: relative; */
+  left:200px;
+  top:30px;
+  background-color: lightskyblue;
+  border: 1px solid #000;
+  text-align:center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 500px;
+  height: 250px;
+}
+
+#comentarios td{
+  width: 300px;
+}
+
+#Añadircomentario{
+  position:relative;
+  left:200px;
+}
+#añadirComentarioBoton{
+  position: relative;
+  left: 80;
+  top: -37
+}
+
+/***** Barra superior *****/
+
+.topBar ul {
+  display: flex;
+  padding-left: 0px;
+  color:#ffff;
+  background-color: lightskyblue;
+  /*text-align: center;*/
+  list-style-type: none;
+}
+
+.topBar ul > li {
+  display: inline-block;
+  padding: 10px 0px;
+  margin:0 2%;
+}
+
+.topBar ul > li:hover {
+  text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+.topBar ul > li > a {
+  color: black;
+  text-decoration: none;
+}
+
+.topBar {
+      position: fixed;
+      top:-20px;
+      left:0px;
+      width: 100%;
+      height: 10%;
+      z-index: 1000;
+}
+
+.topBar li:nth-child(2) {
+  margin: auto;
+}
+
+.topBar li:nth-child(3) {
+  margin-left: auto;
+}
+
+.topBar ul > li > #login_topbar {
+  line-height: 0px;
+}
+
+.tienda{
+  width: 100px;          
+  height: 100px;  
+  float:left;
+  position: fixed;
+  left:0px;
+  top:65px;
+}
+
+/***** Tabla de contenidos *****/
+
+td, th {
+  text-align: center;
+  padding: 5px;
+}
+
+#tabla1{
+  position:relative;
+  left:20%;
+}
+
+/***** Menu lateral *****/
+
+#listatienda{
+  list-style-type: none;
+  background-color: rgb(46, 143, 182);
+  position: fixed;
+  top:65px;
+  top:21px;
+  left:0px;
+  width: 140px;
+  height: 100%;
+  text-align: left;
+  margin-left: -20px;
+}
+
+#li1{
+  float: left;
+}
+
+#li1 a, .dropbtn {
+  display:inline-block;
+  color: white;
+  text-align: left;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+#li1 a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(109, 194, 247);
+  width: 100px;
+}
+
+#li1.dropdown {
+  display: table-column;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 120px;
+  
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 0;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/***** Cambiar el Cursor *****/
+
+body{
+  cursor: url(../src/Arrow.cur), auto;
+}
+#Añadircomentario{
+  position: relative;
+  left: 320px;
+}

@@ -1,0 +1,231 @@
+/***** Fondo *****/
+
+html {
+    background-image: url("../src/blue.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+}
+
+/***** Barra menu superior *****/
+
+.topBar ul {
+    display: flex;
+    padding-left: 0px;
+    color:#ffff;
+    background-color: lightskyblue;
+    /*text-align: center;*/
+    list-style-type: none;
+}
+.topBar ul > li {
+    display: inline-block;
+    padding: 10px 0px;
+    margin:0 2%;
+}
+.topBar ul > li:hover {
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+.topBar ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+.topBar {
+        position: fixed;
+        top:-20px;
+        left:0px;
+        width: 100%;
+        height: 10%;
+        z-index: 1000;
+}
+.topBar li:nth-child(2) {
+    margin: auto;
+}
+.topBar li:nth-child(3) {
+    margin-left: auto;
+}
+.topBar ul > li > #login_topbar {
+    line-height: 0px;
+}
+
+/***** Titulos *****/
+
+#oasisTitle {
+    text-align: center;
+    width: 100%;
+    position:relative;
+    top: 60px;
+    color:black;
+    text-shadow: 0px 0px 15px rgb(255, 253, 253), 0px 0px 4px rgb(155, 252, 252);
+}
+
+h1 {
+    text-align: center;
+    color:black;
+    text-shadow: 0px 0px 15px rgb(255, 253, 253), 0px 0px 4px rgb(155, 252, 252);
+}
+
+/***** Subnmenu ropa, desplegables *****/
+
+.tienda ul {
+    display: flex;
+    
+    margin: 0;
+    padding: 0;
+    color:#ffff;
+    width: 100%;
+    padding-top: 100px;
+    background-color: transparent;
+    list-style-type: none;
+}
+
+.tienda ul > li {
+    
+    display: inline-block;
+    padding: 5px 20px;
+    margin:0 2%;
+}
+.tienda li {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.tienda ul > li:hover {
+    background-color: rgb(174, 223, 253);
+}
+
+.tienda ul > li > {
+    color:black;
+  text-decoration: none;
+}
+
+.tienda ul > li > a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.tienda {
+    position: relative;
+    top:-20px;
+    margin: auto;
+    z-index: 500;
+}
+
+#li1 a, .dropbtn {
+    display:inline-block;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+
+#li1 a:hover, .dropdown:hover .dropbtn {
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+#li1.dropdown {
+    display: table-column;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: -20px;
+    width: 21%;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 100px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/***** Seccion Novedades *****/
+
+.tablaNovedades {
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.tablaNovedades td, th {
+    text-align: center;
+    padding: 5px;
+}
+
+.cuadrado {
+    margin:auto;
+    width: 225px;        
+    height: 225px;          
+    background-color: rgba(243, 243, 243, 0.404);      
+    text-align:center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.descripcion {
+    margin:auto;
+    line-height : 1px;
+    text-align:center;
+    width: 300px;          
+    height: 50px; 
+}
+
+/***** Seccion Comentarios *****/
+
+.tablaComentarios {
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.tablaComentarios td, th {
+    text-align: center;
+    padding: 5px;
+}
+
+.cuadradoComentario {
+    margin:auto;
+    width: 500px;        
+    height: 100px;          
+    background-color: rgba(243, 243, 243, 0.404);      
+    text-align:center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#nombreUsuario {
+    font-size: 20px;
+    text-align: left;
+}
+
+/***** Pie de pagina *****/
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(99, 154, 185, 0.219);
+}
+
+.footer #footerTexto {
+    position: relative;
+    text-align: center;
+    top: 60px;
+}
+
+/***** Cambiar el cursor *****/
+
+body {
+    cursor: url(../src/Arrow.cur), auto;
+}

@@ -1,0 +1,7 @@
+<!ELEMENT comentarios (comentario)*>
+<!ELEMENT comentario (email,nombre,fecha,comen)>
+<!ATTLIST comentario id ID #REQUIRED>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT comen (#PCDATA)>

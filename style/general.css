@@ -1,0 +1,6 @@
+.errorMsg {
+    color: red;
+}
+body{
+    cursor: url(../src/Arrow.cur), auto;
+}

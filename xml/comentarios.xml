@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE visitas SYSTEM "comentarios.dtd">
+<comentarios>
+    <comentario Id="1">
+        <email>Email</email>
+        <nombre>Nombre</nombre>
+        <fecha>04/12/21</fecha>
+        <comen>Comentario</comen>
+    </comentario >
+</comentarios>
